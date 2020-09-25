@@ -11,5 +11,5 @@ Discord.py and Pillow code for a nice welcome image.
 
 3: You may change the background image but i recommend keeping the white circle and the same dimensions of the original image.
 
-**If you need help feel free to dm me on discord my username is Leastrio#8801**
+**If you need help please create an issue and I will help you.**
 
