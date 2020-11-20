@@ -3,8 +3,10 @@ import requests
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from discord.ext import commands
 
+intents = discord.Intents(members=True)
+
 # Edit these!
-bot = commands.Bot(command_prefix = "!")
+bot = commands.Bot(command_prefix = "!", intents=intents)
 channel_id = yourchannelid
 guild_id = yourguildid
 path = r"path/to/my/welcomeimage.png"
