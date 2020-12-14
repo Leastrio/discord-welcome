@@ -3,7 +3,8 @@ import requests
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from discord.ext import commands
 
-intents = discord.Intents(members=True)
+intents = discord.Intents.default()
+intents.members = True
 
 # Edit these!
 bot = commands.Bot(command_prefix = "!", intents=intents)
